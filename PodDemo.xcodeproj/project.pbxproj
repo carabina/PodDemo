@@ -13,6 +13,7 @@
 		4974192D1D2015B800A1B573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4974192B1D2015B800A1B573 /* Main.storyboard */; };
 		4974192F1D2015B800A1B573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4974192E1D2015B800A1B573 /* Assets.xcassets */; };
 		497419321D2015B800A1B573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497419301D2015B800A1B573 /* LaunchScreen.storyboard */; };
+		4974193C1D2016ED00A1B573 /* KDProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4974193B1D2016ED00A1B573 /* KDProject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4974192E1D2015B800A1B573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		497419311D2015B800A1B573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		497419331D2015B800A1B573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4974193A1D2016ED00A1B573 /* KDProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDProject.h; sourceTree = "<group>"; };
+		4974193B1D2016ED00A1B573 /* KDProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDProject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 			children = (
 				497419251D2015B800A1B573 /* AppDelegate.h */,
 				497419261D2015B800A1B573 /* AppDelegate.m */,
+				497419391D2016B800A1B573 /* KDProject */,
 				497419281D2015B800A1B573 /* ViewController.h */,
 				497419291D2015B800A1B573 /* ViewController.m */,
 				4974192B1D2015B800A1B573 /* Main.storyboard */,
@@ -78,6 +82,15 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		497419391D2016B800A1B573 /* KDProject */ = {
+			isa = PBXGroup;
+			children = (
+				4974193A1D2016ED00A1B573 /* KDProject.h */,
+				4974193B1D2016ED00A1B573 /* KDProject.m */,
+			);
+			path = KDProject;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4974193C1D2016ED00A1B573 /* KDProject.m in Sources */,
 				4974192A1D2015B800A1B573 /* ViewController.m in Sources */,
 				497419271D2015B800A1B573 /* AppDelegate.m in Sources */,
 				497419241D2015B800A1B573 /* main.m in Sources */,
@@ -300,6 +314,7 @@
 				497419381D2015B800A1B573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
